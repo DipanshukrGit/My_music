@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*nav*/
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color:rgb(42, 0, 42);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav{
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600px;
+}
+
+
+/*hero*/
+
+.hero{
+    background-image: url(images/hero_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+}
+
+.hero .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h1{
+    font-size: 80px;
+}
+h3{
+    font-size: 32px;
+}
+
+
+
+/*Music*/
+.music{
+    color: white;
+    padding: 50px;
+    background-color: rgb(27, 0, 27);
+}
+
+.music .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipad{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+.btn{
+    background-color: rgb(255, 128, 128);
+    color: white;
+}
+
+/* aage aane wala button ka code*/
+
+.secondbtn{
+    background-color: purple;
+    color: white;
+}
+
+/* next */
+
+.aboutmusic{
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+}
+
+footer{
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
